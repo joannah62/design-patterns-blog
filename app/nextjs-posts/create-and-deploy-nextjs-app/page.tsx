@@ -57,88 +57,88 @@ export default function NextjsBlogPage() {
         <p className='pt-2'>
           Navigate to the Settings page from the top navigation bar.
         </p>
-        <div className='pt-5 pd-3 flex justify-center items-center'>
+        {/* <div className='pt-5 pd-3 flex justify-center items-center'>
           <Image
                 src={`${basePath}/1.png`}
                 alt="Screenshot of Settings tab on nav bar"
                 width={700}
                 height={40}
           />
-        </div>
+        </div> */}
         <p className='pt-2'>
           From there navigate to "Pages" on the right-hand side.
         </p>
-        <div className='pt-5 pd-3 flex justify-center items-center'>
+        {/* <div className='pt-5 pd-3 flex justify-center items-center'>
           <Image
                 src={`${basePath}/2.png`}
                 alt="Screenshot of Pages tab on nav bar"
                 width={250}
                 height={250}
           />
-        </div>
+        </div> */}
         <p className='pt-2'>
           You will then be asked for a Source. Select GitHub Actions from the drop down.
         </p>
-        <div className='pt-5 pd-3 flex justify-center items-center'>
+        {/* <div className='pt-5 pd-3 flex justify-center items-center'>
           <Image
                 src={`${basePath}/3.png`}
                 alt="Screenshot of GitHub Actions options"
                 width={250}
                 height={200}
           />
-        </div>
+        </div> */}
         <p className='pt-2'>
           Next.js will be recommended to you as a suggested workflow. Click on "Configure".
         </p>
-        <div className='pt-5 pd-3 flex justify-center items-center'>
+        {/* <div className='pt-5 pd-3 flex justify-center items-center'>
           <Image
                 src={`${basePath}/4.png`}
                 alt="Screenshot of default Next.js Configuration"
                 width={350}
                 height={270}
           />
-        </div>
+        </div> */}
         <p className='pt-2'>
           This will generate a workflow yml file for the GitHub Actions build and deploy workflow. Commit this file.
         </p>
-        <div className='pt-5 pd-3 flex justify-center items-center'>
+        {/* <div className='pt-5 pd-3 flex justify-center items-center'>
           <Image
                 src={`${basePath}/5.png`}
                 alt="Screenshot of button tto commit changes"
                 width={225}
                 height={45}
           />
-        </div>
-        <div className='pt-5 pd-3 flex justify-center items-center'>
+        </div> */}
+        {/* <div className='pt-5 pd-3 flex justify-center items-center'>
         <Image
               src={`${basePath}/6.png`}
               alt="Screenshot of commit message"
               width={350}
               height={360}
         />
-        </div>
+        </div> */}
         <p className='pt-2'>
           Navigate to the "Actions" tab on the nav toolbar.
         </p>
-        <div className='pt-5 pd-3 flex justify-center items-center'>
+        {/* <div className='pt-5 pd-3 flex justify-center items-center'>
           <Image
                 src={`${basePath}/7.png`}
                 alt="Screenshot of Actions tab on nav bar"
                 width={650}
                 height={40}
           />
-        </div>
+        </div> */}
         <p className='pt-2'>
           You will see that this build failed. Click on the build to view the error message.
         </p>
-        <div className='pt-5 pd-3 flex justify-center items-center'>
+        {/* <div className='pt-5 pd-3 flex justify-center items-center'>
           <Image
                 src={`${basePath}/8.png`}
                 alt="Screenshot of failed build"
                 width={460}
                 height={160}
           />
-        </div>
+        </div> */}
         <p className='pt-2'>
           You will see a very clear error message stating that <code className="font-mono font-bold">"next export" does not work with App Router</code> and asking us instead to use <code className="font-mono font-bold">"output: export" in next.config.js</code>.
         </p>
@@ -149,14 +149,14 @@ export default function NextjsBlogPage() {
         <p className='pt-2'>
           add <code className="font-mono font-bold">output: 'export',</code> inside the object. This will enable a static export.
         </p>
-        <div className='pt-5 pd-3 flex justify-center items-center'>
+        {/* <div className='pt-5 pd-3 flex justify-center items-center'>
           <Image
                 src={`${basePath}/9.png`}
                 alt="Screenshot of next config code"
                 width={300}
                 height={120}
           />
-        </div>
+        </div> */}
         <p className='pt-2'>
         Commit and push these changes to GitHub (after pulling the workflow yml file from the remote) and your build should be successful. Under the deploy step in the "Actions" tab you should be able to see where your project site is being hosted. Click on this link to view it.
         </p>
