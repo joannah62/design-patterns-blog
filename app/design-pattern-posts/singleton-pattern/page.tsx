@@ -44,8 +44,8 @@ export default function SingletonPatternBlogPage() {
           <Image
                 src={`${basePath}/16.png`}
                 alt="Code for get_instance static method"
-                width={466}
-                height={259}
+                width={442}
+                height={270}
           />
         </div>
         <p className={`pt-2`}>
@@ -55,8 +55,8 @@ export default function SingletonPatternBlogPage() {
           <Image
                 src={`${basePath}/17.png`}
                 alt="Code for constructor"
-                width={457}
-                height={346}
+                width={451}
+                height={349}
           />
         </div>
         <p className={`pt-2`}>
@@ -66,8 +66,8 @@ export default function SingletonPatternBlogPage() {
           <Image
                 src={`${basePath}/18.png`}
                 alt="Returning exception in constructor if instance already exists"
-                width={646}
-                height={450}
+                width={655}
+                height={438}
           />
         </div>
         <p className={`pt-2`}>
